@@ -32,7 +32,7 @@ if (eta <= 18){
     prezzoDelBiglietto = prezzoDelBiglietto - ((prezzoDelBiglietto / 100) * 40)
 }
 
-document.getElementById("prezzoDelBiglietto").innerText = "Il prezzo del biglietto è " + prezzoDelBiglietto
+document.getElementById("prezzoDelBiglietto").innerText = "Il prezzo del biglietto per " + nome + " è " + prezzoDelBiglietto
 
 
 
